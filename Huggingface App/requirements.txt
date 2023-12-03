@@ -1,0 +1,9 @@
+streamlit
+numpy
+pandas
+openai
+open_clip_torch 
+transformers==4.35
+accelerate
+openai
+diffusers
