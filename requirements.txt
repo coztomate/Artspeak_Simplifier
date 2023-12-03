@@ -1,0 +1,8 @@
+streamlit
+numpy
+pandas
+openai
+open_clip_torch 
+transformers
+accelerate
+open_clip
