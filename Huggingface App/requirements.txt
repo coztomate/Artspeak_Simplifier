@@ -1,6 +1,8 @@
 streamlit
-numpy
-pandas
 openai
 transformers
 torch
+text_generation
+huggingface_hub
+python-dotenv
+
