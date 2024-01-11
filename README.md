@@ -7,12 +7,12 @@ By leveraging a variety of Large Language Models (LLMs) and AI services, ARTSPEA
 - Text Simplification: Simplify complex texts using T5 model fine-tuned for text simplification.
 - Example Loading: Load example texts and images for quick demonstration.
 - Image Captioning: Generate new captions for uploaded images.
-- Press Text Generation: Create new press text for exhibitions using either Mistral or GPT-3.5.
+- Press Text Generation: Create new press text for exhibitions using either Mixtral or GPT-3.5.
 - Image Generation: Generate contemporary art images from texts, simplified texts, or new press texts.
 
 ## Usage
 To get started with the ARTSPEAK Simplifier:
-1. Run Notebooks: Clone the repository and explore the notebooks provided in the repo. Please note that some features like Mistral are not be included yet.
+1. Run Notebooks: Clone the repository and explore the notebooks provided in the repo. Please note that some features like Mixtral are not be included yet.
 2. Hugging Face App:
     - Navigate to the Huggingface App folder.
     - Install the required libraries using `pip install -r requirements.txt`.
@@ -25,7 +25,7 @@ T5 Model: Tokenize and encode the input text. Generate the simplified text using
 ### Image Captioning
 BLIP: Upload an image or use the provided example. The image is sent to the BLIP model, which generates a caption.
 ### Press Text Generation
-Mistral 8x7B and GPT-3.5 Turbo: Choose between these models to generate press texts. The selected model generates press text based on the new image caption or simplified text.
+Mixtral 8x7B and GPT-3.5 Turbo: Choose between these models to generate press texts. The selected model generates press text based on the new image caption or simplified text.
 ### Image Generation
 Stable Diffusion (stable-diffusion-v1-4): Generate images from new captions, simplified texts, or new press texts. The app sends a prompt to the Stable Diffusion model which generates a contemporary art image.
 
